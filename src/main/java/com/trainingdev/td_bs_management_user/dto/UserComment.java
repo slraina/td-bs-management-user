@@ -1,10 +1,10 @@
 package com.trainingdev.td_bs_management_user.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@Getter
-@Setter
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserComment {
 
     private String id;
