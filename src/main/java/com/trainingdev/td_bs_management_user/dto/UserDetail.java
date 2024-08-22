@@ -22,6 +22,7 @@ public class UserDetail {
     @Size(max = 40, message = "name can't have more than 40 characters.")
     private String name;
 
+
     private LocalDate birthday	;
 
     @Size(max = 60, message = "email can't have more than 60 characters.")
