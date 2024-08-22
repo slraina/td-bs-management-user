@@ -20,7 +20,7 @@ public class UserRequest {
     @Size(max = 20, message = "lastName can't have more than 20 characters.")
     private String lastName;
 
-    @NotEmpty(message = "birthday cannot be empty")
+    @NotNull(message = "birthday cannot be empty")
     private LocalDate birthday;
 
     @NotEmpty(message = "firstName cannot be empty")

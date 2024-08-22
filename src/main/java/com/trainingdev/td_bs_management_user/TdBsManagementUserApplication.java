@@ -9,6 +9,8 @@ public class TdBsManagementUserApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(TdBsManagementUserApplication.class, args);
+
+		System.out.println("Starting Application");
 	}
 
 }
